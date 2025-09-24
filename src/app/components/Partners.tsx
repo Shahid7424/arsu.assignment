@@ -115,7 +115,7 @@ const Partners = () => {
               </div>
             </div>
             <h2 className="text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-bold leading-tight">
-              We've More Then 254+
+              We&apos;ve More Then 254+
               <br />
               <span className="text-blue-400">Global Partners</span>
             </h2>

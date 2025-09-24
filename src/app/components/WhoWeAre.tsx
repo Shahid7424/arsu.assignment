@@ -34,7 +34,7 @@ export default function WhoWeAre() {
           </div>
 
           <h1 className="text-4xl lg:text-5xl font-bold text-white mb-6 leading-tight">
-            We're Awards Winning
+            We&apos;re Awards Winning
             <br />
             <span className="bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
               Modern Business Solutions

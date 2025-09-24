@@ -1,6 +1,6 @@
 "use client";
 import React, { useState } from 'react';
-import { ChevronRight, ChevronDown, Eye, Code, Hand, MessageCircle } from 'lucide-react';
+import { ChevronRight, ChevronDown } from 'lucide-react';
 import Image from 'next/image';
 
 const SEOLandingPage = () => {

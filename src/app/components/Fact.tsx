@@ -44,7 +44,7 @@ const CompanyAchievement: React.FC = () => {
         <div className="flex items-start justify-between mb-16">
           <div className="flex-1">
             <h1 className="text-4xl md:text-5xl font-bold text-white mb-6 leading-tight">
-              Let's See Our Company<br />
+              Let&apos;s See Our Company<br />
               Achievement
             </h1>
             
