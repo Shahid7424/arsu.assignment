@@ -23,11 +23,8 @@ const ContactForm: React.FC = () => {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     console.log("Form submitted:", formData);
-    
-    // Show success message
     setIsSubmitted(true);
     
-    // Reset form after 3 seconds
     setTimeout(() => {
       setIsSubmitted(false);
       setFormData({
@@ -40,7 +37,6 @@ const ContactForm: React.FC = () => {
 
   return (
     <div className="min-h-screen bg-slate-900 relative overflow-hidden" id="contact">
-      {/* Background CALL text */}
      <div className="absolute inset-0 flex items-start justify-end pointer-events-none">
         <div
           className="text-[3rem] sm:text-[4rem] lg:text-[6rem] xl:text-[8rem] font-black text-transparent select-none tracking-[0.2em] leading-none mr-4 lg:mr-35 mb-16"
@@ -70,7 +66,7 @@ const ContactForm: React.FC = () => {
               </div>
             </div>
 
-            {/* Right Side */}
+            {/* Right column*/}
             <div className="lg:w-1/2 flex flex-col items-start">
               <div className="w-full max-w-md">
                 <div className="flex justify-start mb-8">

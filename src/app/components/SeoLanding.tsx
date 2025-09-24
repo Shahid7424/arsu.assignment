@@ -24,14 +24,12 @@ const SEOLandingPage = () => {
       </div>
       
       <div className="absolute inset-0">
-        {/* Floating geometric shapes */}
         <div className="absolute top-20 left-10 w-4 h-4 bg-purple-500 rotate-45 animate-pulse"></div>
         <div className="absolute top-40 right-20 w-3 h-3 bg-yellow-400 rounded-full animate-bounce"></div>
         <div className="absolute bottom-32 left-20 w-2 h-2 bg-green-400 rounded-full"></div>
         <div className="absolute top-60 left-1/4 w-6 h-1 bg-green-400 rounded-full transform rotate-45"></div>
         <div className="absolute bottom-40 right-1/3 w-8 h-1 bg-pink-400 rounded-full transform -rotate-45"></div>
-        
-        {/* Wavy lines */}
+      
         <svg className="absolute top-32 left-0 opacity-60" width="60" height="20" viewBox="0 0 60 20">
           <path d="M0 10 Q15 0 30 10 T60 10" stroke="#10b981" strokeWidth="2" fill="none" />
         </svg>
@@ -43,9 +41,7 @@ const SEOLandingPage = () => {
 
       <div className="container mx-auto px-6 py-12 relative z-10">
         <div className="grid lg:grid-cols-2 gap-12 items-center min-h-screen">
-          {/* Left Content */}
           <div className="space-y-8">
-            {/* Logo */}
             <div className="flex items-center space-x-2">
               <div className="w-8 h-8 bg-gradient-to-r from-blue-400 to-purple-500 rounded-lg flex items-center justify-center">
                 <svg width="16" height="16" viewBox="0 0 16 16" className="text-white">
@@ -54,7 +50,6 @@ const SEOLandingPage = () => {
               </div>
             </div>
 
-            {/* Main Heading */}
             <div className="space-y-4">
               <h1 className="text-4xl lg:text-6xl font-bold text-white leading-tight">
                 Manage Business SEO
@@ -68,10 +63,7 @@ const SEOLandingPage = () => {
                 Quis autem vel eum iure reprehenderit qui in ea voluptates velit esse quam molestiae consequatur veillum
               </p>
             </div>
-
-            {/* Interactive Cards */}
             <div className="space-y-4">
-              {/* Card 1 */}
               <div className="bg-gray-800/50 backdrop-blur-sm rounded-lg p-4 border border-gray-700/50 hover:border-purple-500/50 transition-all duration-300 cursor-pointer">
                 <div className="flex items-center justify-between" onClick={() => toggleCard(0)}>
                   <span className="text-white font-medium">Why SEO Growth Business Strategy ?</span>
@@ -89,7 +81,6 @@ const SEOLandingPage = () => {
                 )}
               </div>
 
-              {/* Card 2 - Default Expanded */}
               <div className="bg-gray-800/50 backdrop-blur-sm rounded-lg p-4 border border-gray-700/50 hover:border-purple-500/50 transition-all duration-300">
                 <div className="flex items-center justify-between mb-3 cursor-pointer" onClick={() => toggleCard(1)}>
                   <span className="text-white font-medium">How We Help Your Projects ?</span>
@@ -107,7 +98,6 @@ const SEOLandingPage = () => {
                 )}
               </div>
 
-              {/* Card 3 */}
               <div className="bg-gray-800/50 backdrop-blur-sm rounded-lg p-4 border border-gray-700/50 hover:border-purple-500/50 transition-all duration-300 cursor-pointer">
                 <div className="flex items-center justify-between" onClick={() => toggleCard(2)}>
                   <span className="text-white font-medium">What Makes Us Different ?</span>
@@ -126,10 +116,7 @@ const SEOLandingPage = () => {
               </div>
             </div>
           </div>
-
-          {/* Right Content - Illustration */}
           <div className="relative flex items-center justify-center">
-            {/* Background Image */}
             <div className="relative w-full max-w-lg">
               <Image 
                 src="/images/seoimg.png" 
@@ -140,19 +127,15 @@ const SEOLandingPage = () => {
                 priority
               />
               
-              {/* Overlay animated elements */}
               <div className="absolute inset-0">
-                {/* Floating Planet */}
+               
                 <div className="absolute -left-8 top-1/4 animate-float">
                   <div className="w-16 h-16 bg-gradient-to-br from-blue-400 via-purple-400 to-pink-400 rounded-full relative shadow-xl">
-                    {/* Planet ring */}
                     <div className="absolute inset-0 border-2 border-yellow-300 rounded-full transform rotate-12 scale-125 opacity-60"></div>
                     <div className="absolute top-1 left-2 w-2 h-2 bg-blue-200 rounded-full opacity-80"></div>
                     <div className="absolute bottom-2 right-1 w-1 h-1 bg-white rounded-full opacity-90"></div>
                   </div>
                 </div>
-
-                {/* Small floating elements */}
                 <div className="absolute top-8 left-8 w-6 h-6 bg-purple-500 rounded-full animate-pulse opacity-80"></div>
                 <div className="absolute bottom-12 right-8 w-4 h-4 bg-green-400 rotate-45 animate-spin-slow"></div>
                 <div className="absolute top-1/2 -right-4 w-3 h-3 bg-yellow-400 rounded-full animate-bounce"></div>
@@ -161,14 +144,11 @@ const SEOLandingPage = () => {
           </div>
         </div>
 
-        {/* Windows Activation Notice */}
         <div className="fixed bottom-6 right-6 text-right">
           <p className="text-gray-400 text-sm">Activate Windows</p>
           <p className="text-gray-500 text-xs">Go to Settings to activate Windows.</p>
         </div>
       </div>
-
-      {/* Custom animations */}
       <style jsx>{`
         @keyframes float {
           0%, 100% { transform: translateY(0px) rotate(0deg); }

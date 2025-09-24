@@ -63,9 +63,7 @@ const Project: React.FC = () => {
       </div>
 
       <div className="max-w-7xl mx-auto">
-        {/* Header */}
         <div className="text-center mb-16 relative">
-          {/* Decorative wavy line */}
           <div className="flex justify-center mb-6">
             <svg
               width="60"
@@ -84,7 +82,6 @@ const Project: React.FC = () => {
           </div>
 
           <div className="relative inline-block">
-            {/* Title with background */}
             <h2 className="relative text-4xl md:text-5xl font-bold text-white leading-tight px-8 py-6 bg-gradient-to-r ">
               <span className="bg-gradient-to-r from-white via-purple-200 to-white bg-clip-text text-transparent">
                 Checkout our Recently
@@ -125,9 +122,7 @@ const Project: React.FC = () => {
                             <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent" />
                           </div>
 
-                          {/* Project Info Overlay */}
                           <div className="absolute bottom-0 left-0 right-0 p-6">
-                            {/* Category Badge */}
                             <div className="mb-3">
                               <span
                                 className={`${proj.categoryColor} text-white px-4 py-2 rounded-full text-sm font-semibold`}
@@ -142,7 +137,7 @@ const Project: React.FC = () => {
                             </h3>
                           </div>
 
-                          {/* Hover Effect Overlay */}
+                          {/* Hover Effect */}
                           <div className="absolute inset-0 bg-purple-600/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                         </div>
                       </div>

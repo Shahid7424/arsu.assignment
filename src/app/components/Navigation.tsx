@@ -4,7 +4,6 @@ import React, { useState } from "react";
 const Navigation: React.FC = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
-  // Smooth scroll function
   const handleNavClick = (e: React.MouseEvent<HTMLAnchorElement>, targetId: string) => {
     e.preventDefault();
     setIsMobileMenuOpen(false);
@@ -80,8 +79,6 @@ const Navigation: React.FC = () => {
               Contact
             </a>
           </div>
-
-          {/* Mobile Menu Button */}
           <button
             className="md:hidden p-2 text-white hover:text-yellow-400 transition-colors duration-200"
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}

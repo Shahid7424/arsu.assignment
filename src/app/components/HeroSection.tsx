@@ -30,7 +30,6 @@ const HeroSection: React.FC = () => {
 
       <div className="max-w-7xl mx-auto px-6 pt-20 relative z-20">
         <div className="grid lg:grid-cols-2 gap-12 items-center min-h-screen">
-          {/* Text Content */}
           <div className="animate-fadeInLeft">
             <div className="flex items-center mb-6">
               <h1 className="text-5xl lg:text-6xl font-bold text-white">

@@ -4,7 +4,7 @@ import React from 'react';
 export default function WhoWeAre() {
   return (
     <div className="relative w-full bg-slate-900 bg-gradient-to-br overflow-hidden" id="about">
-      {/* Background pattern overlay */}
+      {/* Background pattern and overlay */}
       <div className="absolute inset-0 flex items-start justify-start pointer-events-none pt-8 pl-4 sm:pl-8">
         <div 
           className="text-[3rem] sm:text-[4rem] lg:text-[6rem] xl:text-[8rem] font-black text-transparent select-none tracking-[0.2em] leading-none"
@@ -25,7 +25,7 @@ export default function WhoWeAre() {
       </div>
 
       <div className="relative flex items-center justify-between p-8 lg:p-12">
-        {/* Left Content */}
+        {/* Left Column */}
         <div className="flex-1 max-w-2xl">
           <div className="mb-6">
             <svg className="w-12 h-3" viewBox="0 0 48 12" fill="none">
@@ -48,9 +48,7 @@ export default function WhoWeAre() {
             ipsa quae ab illo inventore veritatis architecto beatae
           </p>
 
-          {/* Service tags with check marks */}
           <div className="grid grid-cols-3 gap-4 max-w-2xl">
-            {/* First Row */}
             <div className="flex items-center space-x-3 bg-slate-800/70 backdrop-blur-sm border border-slate-600/50 rounded-xl px-5 py-4">
               <div className="w-6 h-6 bg-blue-500 rounded-full flex items-center justify-center flex-shrink-0">
                 <svg className="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -78,7 +76,6 @@ export default function WhoWeAre() {
               <span className="text-white text-base font-medium">Web Solutions</span>
             </div>
 
-            {/* Second Row */}
             <div className="flex items-center space-x-3 bg-slate-800/70 backdrop-blur-sm border border-slate-600/50 rounded-xl px-5 py-4">
               <div className="w-6 h-6 bg-blue-500 rounded-full flex items-center justify-center flex-shrink-0">
                 <svg className="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -99,7 +96,7 @@ export default function WhoWeAre() {
           </div>
         </div>
 
-        {/* Right Content*/}
+        {/* Right Column*/}
         <div className="relative flex-shrink-0">
           <div className="relative w-120 h-120">
             <img 

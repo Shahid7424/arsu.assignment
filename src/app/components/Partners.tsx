@@ -103,7 +103,6 @@ const Partners = () => {
       </div>
 
       <div className="max-w-7xl mx-auto relative z-10">
-        {/* Header Section */}
         <div className="grid lg:grid-cols-2 gap-8 lg:gap-16 items-start mb-12 lg:mb-16">
           <div className="text-white">
             <div className="flex items-center mb-4 lg:mb-6">
@@ -121,7 +120,7 @@ const Partners = () => {
             </h2>
           </div>
 
-          {/* Right Column - Description */}
+          {/* Right Column */}
           <div className="text-gray-300 lg:pt-16 xl:pt-20">
             <p className="text-base lg:text-lg leading-relaxed">
               Sed ut perspiciatis unde omnis natus error voluptatem accusantium 
@@ -130,10 +129,7 @@ const Partners = () => {
             </p>
           </div>
         </div>
-
-        {/* Partners Carousel Section */}
         <div className="relative">
-          {/* Navigation Arrows */}
           <button
             onClick={prevSlide}
             className="absolute left-0 top-1/2 transform -translate-y-1/2 -translate-x-2 sm:-translate-x-4 z-20 w-10 h-10 sm:w-12 sm:h-12 bg-blue-600/80 backdrop-blur-sm border border-blue-500/30 rounded-full flex items-center justify-center text-white hover:bg-blue-600 hover:border-blue-500/50 hover:scale-110 transition-all duration-300 shadow-lg shadow-blue-600/25"
@@ -148,7 +144,6 @@ const Partners = () => {
             <ChevronRight size={18} />
           </button>
 
-          {/* Carousel Container */}
           <div className="overflow-hidden px-8 sm:px-12">
             <div 
               className="flex transition-transform duration-500 ease-in-out"
@@ -164,7 +159,6 @@ const Partners = () => {
                   style={{ width: `${100 / allPartners.length}%` }}
                 >
                   <div className="bg-slate-800/60 backdrop-blur-sm border border-slate-700/50 rounded-xl sm:rounded-2xl p-4 sm:p-6 flex flex-col items-center justify-center text-center min-h-[120px] sm:min-h-[140px] hover:bg-slate-800/80 hover:border-slate-600/60 hover:scale-105 transition-all duration-300 group shadow-lg">
-                    {/* Logo/Brand Name */}
                     <div className="text-white font-bold text-sm sm:text-lg mb-1 sm:mb-2 group-hover:scale-105 transition-transform duration-300">
                       {partner.arabicName || partner.logo}
                     </div>
@@ -179,7 +173,6 @@ const Partners = () => {
             </div>
           </div>
 
-          {/* Progress/Pagination Dots */}
           <div className="flex justify-center mt-6 lg:mt-8 space-x-2">
             {Array.from({ length: maxSlides + 1 }).map((_, index) => (
               <button

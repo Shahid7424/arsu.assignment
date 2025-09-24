@@ -42,7 +42,6 @@ const Testimonial = () => {
 
   return (
     <section className="relative bg-slate-900 min-h-screen flex flex-col items-center justify-center overflow-hidden" id="clients">
-      {/* Background SAY'S text */}
       <div className="absolute inset-0 flex items-start justify-center pointer-events-none pt-8">
         <div
           className="text-[3rem] sm:text-[4rem] lg:text-[6rem] xl:text-[8rem] font-black select-none tracking-[0.2em] leading-none text-transparent"
@@ -61,8 +60,6 @@ const Testimonial = () => {
           <br /> Support & Services
         </h2>
       </div>
-
-      {/* Carousel */}
       <div className="relative z-10 mt-16 max-w-5xl w-full px-6">
         {/* Arrows */}
         <button
@@ -92,8 +89,6 @@ const Testimonial = () => {
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
           </svg>
         </button>
-
-        {/* Testimonials */}
         <div className="overflow-hidden">
           <div
             className="flex transition-transform duration-500 ease-in-out"
@@ -118,7 +113,6 @@ const Testimonial = () => {
           </div>
         </div>
 
-        {/* Dots */}
         <div className="flex space-x-3 mt-10 justify-center">
           {testimonials.map((_, i) => (
             <button
@@ -134,7 +128,6 @@ const Testimonial = () => {
         </div>
       </div>
 
-      {/* Floating icons (decorations) */}
       <div className="absolute top-1/4 left-12 w-12 h-12 bg-green-500 rounded-xl flex items-center justify-center shadow-lg animate-bounce">
         ✅
       </div>

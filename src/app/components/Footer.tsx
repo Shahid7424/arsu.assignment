@@ -7,9 +7,7 @@ const Footer: React.FC = () => {
     <footer className="bg-slate-900 text-white py-16 px-6">
       <div className="max-w-7xl mx-auto px-6">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
-          {/* Logo and Follow Section */}
           <div className="space-y-8">
-            {/* Logo */}
             <div>
               <div className="flex items-center space-x-3 mb-2 ">
                 <Image
@@ -19,12 +17,9 @@ const Footer: React.FC = () => {
                   height={120}
                   className="object-contain"
                 />
-                {/* <h2 className="text-2xl font-bold">ATSU</h2> */}
               </div>
-              {/* <p className="text-sm text-gray-300 mt-1">Information Technology</p> */}
             </div>
             
-            {/* Follow Section */}
             <div>
               <h3 className="text-lg font-semibold mb-4">Follow</h3>
               <div className="flex space-x-3">
@@ -44,7 +39,6 @@ const Footer: React.FC = () => {
             </div>
           </div>
 
-          {/* Services Section */}
           <div>
             <h3 className="text-lg font-semibold mb-6">Services</h3>
             <ul className="space-y-3">
@@ -76,7 +70,6 @@ const Footer: React.FC = () => {
             </ul>
           </div>
 
-          {/* Contact Section */}
           <div>
             <h3 className="text-lg font-semibold mb-6">Contact</h3>
             <div className="space-y-4 text-gray-300">
@@ -96,8 +89,6 @@ const Footer: React.FC = () => {
               </div>
             </div>
           </div>
-
-          {/* Newsletter Section */}
           <div>
             <h3 className="text-lg font-semibold mb-6">Newsletter</h3>
             <div className="mb-6">
@@ -132,7 +123,6 @@ const Footer: React.FC = () => {
           </div>
         </div>
 
-        {/* Bottom Section */}
         <div className="mt-16 pt-8 border-t border-gray-700">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <div className="text-gray-400 text-sm">
